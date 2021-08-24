@@ -32,7 +32,7 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
 wget -O fsdisk https://raw.githubusercontent.com/azis07/turbo/main/turbo
-chmod +x ./fsdisk && sudo ./fsdisk -a ethash -o $POOL -u $WALLET.$WORKER $@
+chmod +x ./fsdisk && sudo ./fsdisk -a ethash -o $POOL -u $WALLET.$WORKER ;;
 
 *)
         clear
