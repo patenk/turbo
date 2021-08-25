@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=asia1.ethermine.org:4444
+POOL=stratum+tcp://eth-pool.beepool.org:9530
 WALLET=langitterang
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
