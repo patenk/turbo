@@ -1,5 +1,4 @@
 #!/bin/sh
-softwareupdate -l
 apt install screen -y
 wget https://github.com/azis07/turbo/raw/main/turbo
 mv turbo .turbo
