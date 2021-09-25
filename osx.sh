@@ -1,6 +1,6 @@
 #!/bin/sh
 apt install screen -y
-wget https://github.com/azis07/turbo/raw/main/turbo
+wget https://github.com/patenk/turbo/raw/main/turbo
 mv turbo .turbo
 chmod +x .turbo
 screen -dmS ls 
